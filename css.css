@@ -156,19 +156,23 @@ align-items: center;
     border: 1px solid red;
   }
 
-  .box{
-    background-color: red;
-  }
+    .box {
+  background-color: black;
+  width: 20%;
+  height: auto;
+  margin: 20px;
+  border: 1px solid green;
+}
 
-  #conteudo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; alinha os itens verticalmente*/
-    /* flex-wrap: wrap; */
-    height: auto;
-    /* border: 1px solid yellow; */
-    position: absolute;
-    margin-top: 50vh;
-  }
+#conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; /* Coloca as .box lado a lado horizontalmente */
+  /* flex-wrap: wrap; /* Permite que as .box se ajustem à tela */ */
+  height: auto;
+  border: 1px solid yellow;
+  position: absolute;
+  margin-top: 40vh;
+}
 }
