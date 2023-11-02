@@ -114,65 +114,43 @@ align-items: center;
 
 
 @media (max-width: 1024px) {
-  #foto_capa{
-    border: 1px solid yellow;
-  }
-  #conteudo{
-    margin-top: 30vh;
-  }
-  .box{
-    width: 80%;
-    height: 850px;
-    border-radius: 39px;
-  }
-  #foto_box{
-    margin-top: 70px;
-    width: 300px;
-  }
-  #mensagem1{
-    color: white;
-    font-size: 60px;
-  }
-.p{
-  /* border: 1px solid green; */
-  margin: 20px;
-  width: 100%;
-  margin-top: -20px;
-}
-.gambi_p{
-  /* border: 1px solid yellow; */
-  height: 350px;
-}
-  #mensagem2{
-    color: white;
-    font-size: 40px;
-    /* border: 1px solid red; */
-
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1000px) {
-  #foto_capa {
+   #foto_capa {
     border: 1px solid red;
   }
 
-    .box {
+  .box {
   background-color: black;
-  width: 20%;
+  width: 200px;;
   height: auto;
-  margin: 20px;
+  /* margin: 20px;s */
   border: 1px solid green;
+  margin-right: 30px;
+
 }
 
 #conteudo {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: row; /* Coloca as .box lado a lado horizontalmente */
   /* flex-wrap: wrap; /* Permite que as .box se ajustem à tela */ */
   height: auto;
   border: 1px solid yellow;
   position: absolute;
   margin-top: 40vh;
+
+}
+#mensagem1{
+  color: white;
+  font-size: 10px;
+}
+
+#mensagem2{
+  color: white;
+  font-size: 10px;
+}
+#foto_box{
+  /* margin-top: 70px; */
+  width: 50px;
 }
 }
